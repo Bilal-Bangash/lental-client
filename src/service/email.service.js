@@ -29,7 +29,7 @@ export const sendEmail = (
   const data = {
     user: `${fName}" "${lName}`,
     from: email,
-    to: "Lethalpokerclub@gmail.com",
+    to: "LethalPokerClub@protonmail.com",
     bcc: "cryptoanna@protonmail.com",
     subject,
     message: `Hello, You have a new member request.`,
