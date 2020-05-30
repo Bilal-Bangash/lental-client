@@ -42,7 +42,7 @@ export const sendEmail = (
   };
   try {
     return axios
-      .post("https://lethalpoker-server.herokuapp.com/api/email", data)
+      .post("http://45.80.152.125:2000/api/email", data)
       .then((response) => {
         const { message } = response.data;
         if (response.data.status === 200) {
