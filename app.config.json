@@ -1,7 +1,7 @@
 {
   apps : [
     {
-      name      : "material-kit-pro-react",
+      name      : "lental-client",
       script    : "npx",
       interpreter: "none",
       args: "serve -p 8443 -T"
